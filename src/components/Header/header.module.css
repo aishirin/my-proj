@@ -1,0 +1,13 @@
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6px;
+    height: 100px;
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+
+}
+.info{
+    height: 60px;
+}
