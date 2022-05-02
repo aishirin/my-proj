@@ -1,13 +1,74 @@
-.header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 6px;
-    height: 100px;
-    justify-content: space-between;
-    width: 80%;
-    text-align: center;
-
+.headerTop {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  grid-gap: 30px;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
 }
-.info{
-    height: 60px;
+.info {
+  height: 60px;
+}
+.text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+}
+.textYel {
+  color: var(--color1);
+}
+
+.textBlock {
+  justify-self: center;
+}
+.textBlock p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.tel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.tel a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: var(--color1);
+}
+.tel button {
+  width: 180px;
+  height: 42px;
+  color: #696f7a;
+  background: #f3f3f7;
+  border-radius: 28px;
+  border: none;
+}
+.nav {
+  display: grid;
+  grid-template-columns: repeat(11, auto);
+  align-items: center;
+  grid-gap: 10px;
+}
+.item:hover{
+    text-decoration: underline;
+}
+.account {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #696f7a;
+}
+.basket {
+  width: 160px;
+  height: 42px;
+  border-radius: 8px;
+  background-color: var(--color1);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #231f20;
 }

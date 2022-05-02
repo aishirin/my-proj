@@ -1,0 +1,373 @@
+{
+    "news": [
+        {
+          "id": 1,
+          "title": "Пепперони",
+          "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+          "price": 600
+        },
+        {
+            "id": 2,
+            "title": "Двойной цыпленок",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },
+          {
+            "id": 3,
+            "title": "Маргарита",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },
+          {
+            "id": 4,
+            "title": "Карбонара",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          }
+    ],
+    
+    
+    "pizza": [
+        {
+          "id": 1,
+          "title": "Карбонара",
+          "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+          "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+          "price": 600
+        },
+        {
+            "id": 2,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },
+          {
+            "id": 3,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },
+          {
+            "id": 4,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },
+          {
+            "id": 5,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },
+          {
+            "id": 6,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },
+          {
+            "id": 7,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },
+          {
+            "id": 8,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },
+          {
+            "id": 9,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id": 10,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id": 11,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id":12,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id": 13,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id": 14,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id": 15,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id":16,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id": 17,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id": 18,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id": 19,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          },{
+            "id": 20,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+            "price": 600
+          }
+        ],
+        "pasta":[
+            {
+                "id":1,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            },
+            {
+                "id":2,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            },
+            {
+                "id":3,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            },
+            {
+                "id":4,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            },
+            {
+                "id":5,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            },
+            {
+                "id":6,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            },
+            {
+                "id":7,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            },
+            {
+                "id":8,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            },
+            {
+                "id":9,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            },
+            {
+                "id":10,
+                "title":"Фетучини",
+                "description":"Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image":"https://pngimg.com/uploads/pasta/pasta_PNG58.png",
+                "price":800 
+            }
+        ],
+        "salads":[
+            {
+                "id": 1,
+                "title": "Карбонара",
+                "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                "price": 600
+              },
+              {
+                  "id": 2,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },
+                {
+                  "id": 3,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },
+                {
+                  "id": 4,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },
+                {
+                  "id": 5,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },
+                {
+                  "id": 6,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },
+                {
+                  "id": 7,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },
+                {
+                  "id": 8,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },
+                {
+                  "id": 9,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },{
+                  "id": 10,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },{
+                  "id": 11,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },{
+                  "id":12,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },{
+                  "id": 13,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },{
+                  "id": 14,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },{
+                  "id": 15,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },{
+                  "id":16,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                },{
+                  "id": 17,
+                  "title": "Карбонара",
+                  "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+                  "image": "https://officialpsds.com/imageview/rn/p2/rnp2p6_large.png?1529595432",
+                  "price": 600
+                }
+        ],
+        "stocks":[
+            {
+                "id":1,
+                "image":"https://superron.ru/upload/iblock/8ab/8ab33b3d171c32edc6799ea3c89aa0b4.jpg"
+            },{
+                "id":2,
+                "image":"https://superron.ru/upload/iblock/8ab/8ab33b3d171c32edc6799ea3c89aa0b4.jpg"
+            },{
+                "id":3,
+                "image":"https://superron.ru/upload/iblock/8ab/8ab33b3d171c32edc6799ea3c89aa0b4.jpg"
+            },{
+                "id":4,
+                "image":"https://superron.ru/upload/iblock/8ab/8ab33b3d171c32edc6799ea3c89aa0b4.jpg"
+            },{
+                "id":5,
+                "image":"https://superron.ru/upload/iblock/8ab/8ab33b3d171c32edc6799ea3c89aa0b4.jpg"
+            },{
+                "id":6,
+                "image":"https://superron.ru/upload/iblock/8ab/8ab33b3d171c32edc6799ea3c89aa0b4.jpg"
+            },{
+                "id":7,
+                "image":"https://superron.ru/upload/iblock/8ab/8ab33b3d171c32edc6799ea3c89aa0b4.jpg"
+            },{
+                "id":8,
+                "image":"https://superron.ru/upload/iblock/8ab/8ab33b3d171c32edc6799ea3c89aa0b4.jpg"
+            }
+        ]
+}

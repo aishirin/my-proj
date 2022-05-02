@@ -1,0 +1,39 @@
+.card {
+  width: 250px;
+  height: 410px;
+}
+.image {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+.title {
+  font-weight: 800;
+  font-size: 24px;
+  color: #797979;
+}
+.description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #686466;
+  margin-bottom: 50px;
+}
+.card div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #231f20;
+}
+.btn {
+  display: inline-block;
+  width: 126px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: var(--color1);
+  
+}

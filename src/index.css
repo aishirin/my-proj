@@ -5,12 +5,37 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #E5E5E5; */
 }
-
+:root{
+  --color1:#f7d22d;
+}
+button{
+  font-family: inherit;
+  border: 0;
+  cursor: pointer;
+  background: none;
+}
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
 .container{
-  width: 70%;
+  width: 80%;
+  margin: 0 auto;
 }
+.boy{
+  position: absolute;
+  width: 238.27px;
+  height: 364.1px;
+  left: -45px;
+  top: 400px;
+}
+.pizza{
+  position: absolute;
+  right: -1px;
+}
+

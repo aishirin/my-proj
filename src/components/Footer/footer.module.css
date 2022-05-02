@@ -1,0 +1,73 @@
+.footer {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+}
+.infoImg {
+  border: 2px solid #e3ecf5;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 101px;
+  height: 52px;
+}
+.tel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: var(--color1);
+}
+.telButton {
+  width: 180px;
+  height: 42px;
+  color: #696f7a;
+  background: #f3f3f7;
+  border-radius: 28px;
+  border: none;
+  margin-top: 30px;
+}
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.list a,
+span {
+  display: block;
+}
+.headerList p {
+  padding-top: 100px;
+}
+.headerList h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0e0c0d;
+  opacity: 0.85;
+}
+.headerList a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  opacity: 0.7;
+  color: #0e0c0d;
+}
+.telList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 130px);
+  row-gap: 30px;
+  margin-bottom: 60px;
+}
+.phoneInfo {
+  display: grid;
+  grid-auto-flow: row;
+}
+.btn {
+  border: 2px solid #e3ecf5;
+  box-sizing: border-box;
+  border-radius: 13px;
+  width: 235px;
+  height: 52px;
+}
