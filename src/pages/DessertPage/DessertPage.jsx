@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useEffect ,useState } from 'react';
 export default function DessertPage(){
     const [dessert , setDessert]=useState([]);
-    // const [basket,setBasket]=useState([])
+    const [basket,setBasket]=useState([])
     const fetchDessert= async () => {
         const [resDessert]=await Promise.all([axios.get("http://localhost:3001/dessert?_limit")])
         setDessert(resDessert.data)
@@ -24,8 +24,8 @@ export default function DessertPage(){
                 price={product.price}
                 description={product.description}
                 product={product}
-                // basket={basket}
-                // setBasket={setBasket}
+                basket={basket}
+                setBasket={setBasket}
                 />
             ))}
             </div>

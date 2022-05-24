@@ -1,5 +1,7 @@
 import css from './card.module.css'
+import {useEffect} from 'react'
 function Card({title, description, price, image,basket,setBasket,product }) {
+  console.log(basket)
     return (
       <article className={css.card}>
         <img src={image} alt="" className={css.image} />

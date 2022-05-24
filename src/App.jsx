@@ -16,6 +16,7 @@ import DessertPage from "./pages/DessertPage/DessertPage";
 import DrinkPage from "./pages/DrinkPage.jsx/DrinkPade";
 import StockPage from "./pages/StockPage/StockPage"
 import ComboPage from "./pages/ComboPage/ComboPage"
+import ContactPage from "./pages/ContactPage/ContactPage";
 export default function App() {
 
   return (
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/drink" element={<DrinkPage />} />
           <Route path="/combo" element={<ComboPage />} />
           <Route path="/stocks" element={<StockPage />} />
+          <Route path="/contacts" element={<ContactPage />} />
         </Routes>
         <Footer />
       </div>

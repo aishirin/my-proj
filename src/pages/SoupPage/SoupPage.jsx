@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useEffect ,useState } from 'react';
 export default function SoupPage(){
     const [soup , setSoup]=useState([]);
-    // const [basket,setBasket]=useState([])
+    const [basket,setBasket]=useState([])
     const fetchSoup= async () => {
         const [resPizza]=await Promise.all([axios.get("http://localhost:3001/soup?_limit")])
         setSoup(resPizza.data)
@@ -24,8 +24,8 @@ export default function SoupPage(){
                 price={product.price}
                 description={product.description}
                 product={product}
-                // basket={basket}
-                // setBasket={setBasket}
+                basket={basket}
+                setBasket={setBasket}
                 />
             ))}
             </div>

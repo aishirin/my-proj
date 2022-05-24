@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useEffect ,useState } from 'react';
 export default function ComboPage(){
     const [combo , setCombo]=useState([]);
-    // const [basket,setBasket]=useState([])
+    const [basket,setBasket]=useState([])
     const fetchCombo= async () => {
         const [resPizza]=await Promise.all([axios.get("http://localhost:3001/combo?_limit")])
         setCombo(resPizza.data)
@@ -24,8 +24,8 @@ export default function ComboPage(){
                 price={product.price}
                 description={product.description}
                 product={product}
-                // basket={basket}
-                // setBasket={setBasket}
+                basket={basket}
+                setBasket={setBasket}
                 />
             ))}
             </div>

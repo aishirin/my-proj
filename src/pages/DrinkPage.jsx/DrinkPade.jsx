@@ -6,7 +6,7 @@ import axios from 'axios';
 import { useEffect ,useState } from 'react';
 export default function DrinkPage(){
     const [drink , setDrink]=useState([]);
-    // const [basket,setBasket]=useState([])
+    const [basket,setBasket]=useState([])
     const fetchDrink= async () => {
         const [resDrink]=await Promise.all([axios.get("http://localhost:3001/drink?_limit")])
         setDrink(resDrink.data)
@@ -24,8 +24,8 @@ export default function DrinkPage(){
                 price={product.price}
                 description={product.description}
                 product={product}
-                // basket={basket}
-                // setBasket={setBasket}
+                basket={basket}
+                setBasket={setBasket}
                 />
             ))}
             </div>
