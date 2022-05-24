@@ -1,5 +1,5 @@
 import css from './card.module.css'
-function Card({title, description, price, image }) {
+function Card({title, description, price, image,basket,setBasket,product }) {
     return (
       <article className={css.card}>
         <img src={image} alt="" className={css.image} />
@@ -7,7 +7,7 @@ function Card({title, description, price, image }) {
         <p className={css.description}>{description}</p>
         <div >
             <span className={css.price}>от {price} c</span>
-            <button className={css.btn}>В корзину</button>
+            <button className={css.btn} onClick={()=>setBasket([...basket ,product])}>В корзину</button>
         </div>
       </article>
     );

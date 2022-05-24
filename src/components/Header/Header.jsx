@@ -34,7 +34,7 @@ function Header() {
             <Link className={css.item} to="/category">Комбо</Link>
             <Link className={css.item} to="/category">Контакты</Link>
             <Link to="/category" className={clsx(css.item, css.account)}>Войти</Link>
-            <button className={css.basket}>Корзина</button>
+            <Link to="/basket"><button className={css.basket}>Корзина</button></Link>
       </div>
     </div>
   );

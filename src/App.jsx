@@ -7,14 +7,17 @@ import { ReactComponent as Boy } from "./assets/boy.svg";
 import { ReactComponent as Logo } from "./assets/Group 329.svg";
 import pizza  from "./assets/pizza.png";
 import Footer from "./components/Footer/Footer";
+import BasketPage from "./components/Basket/Basket";
 export default function App() {
+
   return (
     <div>
       <Boy className="boy" />
       <div className="container">
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage/>} />
+          <Route path="/basket" element={<BasketPage />} />
         </Routes>
         <Footer />
       </div>
