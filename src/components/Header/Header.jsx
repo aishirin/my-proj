@@ -1,7 +1,6 @@
 import clsx from "clsx";
 import css from "./header.module.css";
 import { Link } from "react-router-dom";
-// import { ReactComponent as Logo } from "../../assets/logo.svg";
 import logo from '../../assets/logo.svg'
 import { ReactComponent as Star } from "../../assets/star.svg";
 function Header() {
@@ -24,7 +23,7 @@ function Header() {
         </div>
       </div>
       <div className={css.nav}>
-            <Link className={css.item} to="/category">Пицца</Link>
+            <Link className={css.item} to="/pizza">Пицца</Link>
             <Link className={css.item} to="/category">Паста</Link>
             <Link className={css.item} to="/category">Супы</Link>
             <Link className={css.item} to="/category">Салаты</Link>

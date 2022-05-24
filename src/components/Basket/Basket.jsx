@@ -1,4 +1,5 @@
 import css from './basket.module.css'
+import Card from '../Card/Card';
 export default function Basket({basket}){
     console.log(basket);
     return (
