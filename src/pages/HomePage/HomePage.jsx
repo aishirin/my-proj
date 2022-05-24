@@ -14,7 +14,7 @@ function HomePage(){
     const [stocks,setStocks]=useState([])
     console.log(basket);
     const fetchAllData= async () => {
-        const [resPizza ,resPasta , resNews ,resSalad , resStocks]=await Promise.all([axios.get("http://localhost:3001/pizza?_limit=8"),axios.get("http://localhost:3001/pasta?_limit=8"),axios.get("http://localhost:3001/news"),axios.get("http://localhost:3001/salads?_limit=8"),axios.get("http://localhost:3001/stocks?_limit=4")])
+        const [resPizza ,resPasta , resNews ,resSalad , resStocks]=await Promise.all([axios.get("http://localhost:3001/pizza?_limit=8"),axios.get("http://localhost:3001/pasta?_limit=8"),axios.get("http://localhost:3001/news"),axios.get("http://localhost:3001/salad?_limit=8"),axios.get("http://localhost:3001/stocks?_limit=4")])
         setNews(resNews.data)
         setPasta(resPasta.data)
         setPizza(resPizza.data)

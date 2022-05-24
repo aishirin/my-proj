@@ -24,14 +24,14 @@ function Header() {
       </div>
       <div className={css.nav}>
             <Link className={css.item} to="/pizza">Пицца</Link>
-            <Link className={css.item} to="/category">Паста</Link>
-            <Link className={css.item} to="/category">Супы</Link>
-            <Link className={css.item} to="/category">Салаты</Link>
-            <Link className={css.item} to="/category">Напитки</Link>
-            <Link className={css.item} to="/category">Десерты</Link>
-            <Link className={css.item} to="/category">Акции</Link>
-            <Link className={css.item} to="/category">Комбо</Link>
-            <Link className={css.item} to="/category">Контакты</Link>
+            <Link className={css.item} to="/pasta">Паста</Link>
+            <Link className={css.item} to="/soup">Супы</Link>
+            <Link className={css.item} to="/salad">Салаты</Link>
+            <Link className={css.item} to="/drink">Напитки</Link>
+            <Link className={css.item} to="/dessert">Десерты</Link>
+            <Link className={css.item} to="/stocks">Акции</Link>
+            <Link className={css.item} to="/combo">Комбо</Link>
+            <Link className={css.item} to="/contacts">Контакты</Link>
             <Link to="/category" className={clsx(css.item, css.account)}>Войти</Link>
             <Link to="/basket"><button className={css.basket}>Корзина</button></Link>
       </div>

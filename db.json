@@ -230,7 +230,7 @@
                 "price":800 
             }
         ],
-        "salads":[
+        "salad":[
             {
                 "id": 1,
                 "title": "Карбонара",
@@ -343,6 +343,57 @@
                   "price": 600
                 }
         ],
+        "soup": [
+          {
+            "id": 18,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.freeiconspng.com/thumbs/soup-png/khanbaba-soup-png-4.png",
+            "price": 600
+          },{
+            "id": 19,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.freeiconspng.com/thumbs/soup-png/khanbaba-soup-png-4.png",
+            "price": 600
+          },{
+            "id": 20,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.freeiconspng.com/thumbs/soup-png/khanbaba-soup-png-4.png",
+            "price": 600
+          },{
+            "id": 21,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.freeiconspng.com/thumbs/soup-png/khanbaba-soup-png-4.png",
+            "price": 600
+          },{
+            "id": 22,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.freeiconspng.com/thumbs/soup-png/khanbaba-soup-png-4.png",
+            "price": 600
+          },{
+            "id": 23,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.freeiconspng.com/thumbs/soup-png/khanbaba-soup-png-4.png",
+            "price": 600
+          },{
+            "id": 24,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.freeiconspng.com/thumbs/soup-png/khanbaba-soup-png-4.png",
+            "price": 600
+          },{
+            "id": 25,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.freeiconspng.com/thumbs/soup-png/khanbaba-soup-png-4.png",
+            "price": 600
+          }
+        ],
         "stocks":[
             {
                 "id":1,
@@ -369,5 +420,150 @@
                 "id":8,
                 "image":"https://superron.ru/upload/iblock/8ab/8ab33b3d171c32edc6799ea3c89aa0b4.jpg"
             }
+        ],
+        "dessert": [
+          {
+            "id": 26,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.pngall.com/wp-content/uploads/7/Dessert-PNG-File.png",
+            "price": 600
+          },{
+            "id": 27,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.pngall.com/wp-content/uploads/7/Dessert-PNG-File.png",
+            "price": 600
+          },{
+            "id": 28,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.pngall.com/wp-content/uploads/7/Dessert-PNG-File.png",
+            "price": 600
+          },{
+            "id": 29,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.pngall.com/wp-content/uploads/7/Dessert-PNG-File.png",
+            "price": 600
+          },{
+            "id": 30,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.pngall.com/wp-content/uploads/7/Dessert-PNG-File.png",
+            "price": 600
+          },{
+            "id": 31,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.pngall.com/wp-content/uploads/7/Dessert-PNG-File.png",
+            "price": 600
+          },{
+            "id": 32,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.pngall.com/wp-content/uploads/7/Dessert-PNG-File.png",
+            "price": 600
+          },{
+            "id": 33,
+            "title": "Карбонара",
+            "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+            "image": "https://www.pngall.com/wp-content/uploads/7/Dessert-PNG-File.png",
+            "price": 600
+          }
+        ],
+        "drink": [
+          {
+            "id": 1,
+            "title": "Coca-cola",
+            "image": "https://www.pngmart.com/files/7/Soda-PNG-Pic.png",
+            "price": 600
+          },{
+            "id": 2,
+            "title": "Coca-cola",
+            "image": "https://www.pngmart.com/files/7/Soda-PNG-Pic.png",
+            "price": 600
+          },{
+            "id": 3,
+            "title": "Coca-cola",
+            "image": "https://www.pngmart.com/files/7/Soda-PNG-Pic.png",
+            "price": 600
+          },{
+            "id": 4,
+            "title": "Coca-cola",
+            "image": "https://www.pngmart.com/files/7/Soda-PNG-Pic.png",
+            "price": 600
+          },{
+            "id": 5,
+            "title": "Coca-cola",
+            "image": "https://www.pngmart.com/files/7/Soda-PNG-Pic.png",
+            "price": 600
+          },{
+            "id": 6,
+            "title": "Coca-cola",
+            "image": "https://www.pngmart.com/files/7/Soda-PNG-Pic.png",
+            "price": 600
+          },{
+            "id": 7,
+            "title": "Coca-cola",
+            "image": "https://www.pngmart.com/files/7/Soda-PNG-Pic.png",
+            "price": 600
+          },{
+            "id": 8,
+            "title": "Coca-cola",
+            "image": "https://www.pngmart.com/files/7/Soda-PNG-Pic.png",
+            "price": 600
+          }
+        ]  ,
+        "combo": [
+          {
+            "id": 1,
+            "title": "Комбо 1",
+            "image": "https://www.pngkit.com/png/full/381-3816219_pizza-soda-deal-coca-cola-classic-20-fl.png",
+            "description": "Домашнаяя пицца (35см) + напиток (0,3 л)",
+            "price": 600
+          },{
+            "id": 2,
+            "title": "Комбо 1",
+            "image": "https://www.pngkit.com/png/full/381-3816219_pizza-soda-deal-coca-cola-classic-20-fl.png",
+            "description": "Домашнаяя пицца (35см) + напиток (0,3 л)",
+            "price": 600
+          },{
+            "id": 3,
+            "title": "Комбо 1",
+            "image": "https://www.pngkit.com/png/full/381-3816219_pizza-soda-deal-coca-cola-classic-20-fl.png",
+            "description": "Домашнаяя пицца (35см) + напиток (0,3 л)",
+            "price": 600
+          },{
+            "id": 4,
+            "title": "Комбо 1",
+            "image": "https://www.pngkit.com/png/full/381-3816219_pizza-soda-deal-coca-cola-classic-20-fl.png",
+            "description": "Домашнаяя пицца (35см) + напиток (0,3 л)",
+            "price": 600
+          },{
+            "id": 5,
+            "title": "Комбо 1",
+            "image": "https://www.pngkit.com/png/full/381-3816219_pizza-soda-deal-coca-cola-classic-20-fl.png",
+            "description": "Домашнаяя пицца (35см) + напиток (0,3 л)",
+            "price": 600
+          },{
+            "id": 6,
+            "title": "Комбо 1",
+            "image": "https://www.pngkit.com/png/full/381-3816219_pizza-soda-deal-coca-cola-classic-20-fl.png",
+            "description": "Домашнаяя пицца (35см) + напиток (0,3 л)",
+            "price": 600
+          },{
+            "id": 7,
+            "title": "Комбо 1",
+            "image": "https://www.pngkit.com/png/full/381-3816219_pizza-soda-deal-coca-cola-classic-20-fl.png",
+            "description": "Домашнаяя пицца (35см) + напиток (0,3 л)",
+            "price": 600
+          },{
+            "id": 8,
+            "title": "Комбо 1",
+            "image": "https://www.pngkit.com/png/full/381-3816219_pizza-soda-deal-coca-cola-classic-20-fl.png",
+            "description": "Домашнаяя пицца (35см) + напиток (0,3 л)",
+            "price": 600
+          }
         ]
 }
