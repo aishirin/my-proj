@@ -12,7 +12,7 @@ function HomePage(){
     const [pasta,setPasta]=useState([])
     const [salad,setSalad]=useState([])
     const [stocks,setStocks]=useState([])
-    console.log(basket);
+    // console.log(basket);
     const fetchAllData= async () => {
         const [resPizza ,resPasta , resNews ,resSalad , resStocks]=await Promise.all([axios.get("http://localhost:3001/pizza?_limit=8"),axios.get("http://localhost:3001/pasta?_limit=8"),axios.get("http://localhost:3001/news"),axios.get("http://localhost:3001/salad?_limit=8"),axios.get("http://localhost:3001/stocks?_limit=4")])
         setNews(resNews.data)
@@ -24,6 +24,20 @@ function HomePage(){
     useEffect(()=>{
         fetchAllData()
     },[])
+    
+    
+
+    // useEffect(() => {
+    //     // POST request using axios inside useEffect React hook
+    //     const article = { title: 'React Hooks POST Request Example' };
+    //     axios.post('https://reqres.in/api/articles', article)
+    //         .then(response => setArticleId(response.data.id));
+    
+    // // empty dependency array means this effect will only run once (like componentDidMount in classes)
+    // }, []);
+
+
+
     return (
         <div>
             <h2>Новинки</h2>

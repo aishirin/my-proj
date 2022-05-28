@@ -1,7 +1,8 @@
 import css from './card.module.css'
-import {useEffect} from 'react'
+import {useEffect,useState} from 'react'
+import axios from 'axios'
+
 function Card({title, description, price, image,basket,setBasket,product }) {
-  console.log(basket)
     return (
       <article className={css.card}>
         <img src={image} alt="" className={css.image} />
@@ -9,10 +10,9 @@ function Card({title, description, price, image,basket,setBasket,product }) {
         <p className={css.description}>{description}</p>
         <div >
             <span className={css.price}>от {price} c</span>
-            <button className={css.btn} onClick={()=>setBasket([...basket ,product])}>В корзину</button>
+            <button className={css.btn} onClick={()=>console.log(product)}>В корзину</button>
         </div>
       </article>
     );
   }
-  
   export default Card;

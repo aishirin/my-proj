@@ -14,6 +14,7 @@ export default function PastaPage(){
     useEffect(()=>{
         fetchPasta()
     },[])
+    
     return(<div>
         <h2 className={css.listTitle}>Пасты</h2>
             <div className={css.list}>

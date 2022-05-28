@@ -14,6 +14,7 @@ export default function ComboPage(){
     useEffect(()=>{
         fetchCombo()
     },[])
+    
     return(<div>
         <h2 className={css.listTitle}>Комбо</h2>
             <div className={css.list}>

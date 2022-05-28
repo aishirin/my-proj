@@ -14,6 +14,7 @@ export default function DrinkPage(){
     useEffect(()=>{
         fetchDrink()
     },[])
+    
     return(<div>
         <h2 className={css.listTitle}>Напитки</h2>
             <div className={css.list}>
