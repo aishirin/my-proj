@@ -10,9 +10,28 @@ function Card({title, description, price, image,basket,setBasket,product }) {
         <p className={css.description}>{description}</p>
         <div >
             <span className={css.price}>от {price} c</span>
-            <button className={css.btn} onClick={()=>console.log(product)}>В корзину</button>
+            <button className={css.btn} onClick={()=>axios.post('http://localhost:3001/basket', {
+        title: product.title,
+        image: product.image,
+        description:product.description,
+        price:product.price
+    })
+    .then(function (response) {
+        console.log(response);
+    })}>В корзину</button>
         </div>
       </article>
     );
   }
   export default Card;
+
+//   axios({
+//     method: 'POST',
+//     url: 'http://localhost:3001/basket',
+//     params: { "title": "lala" },
+//     headers: {
+//       'Content-Type': 'application/x-www-form-urlencoded'
+//     }
+// }).then((response) => {
+//     console.log(response.data);
+// })

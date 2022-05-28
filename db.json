@@ -108,7 +108,7 @@
       "title": "Карбонара",
       "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
       "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
-      "price":499
+      "price": 499
     },
     {
       "id": 13,
@@ -173,7 +173,7 @@
       "title": "Фетучини",
       "description": "Домашнаяя паста феттуччине, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
       "image": "https://pngimg.com/uploads/pasta/pasta_PNG58.png",
-      "price":450
+      "price": 450
     },
     {
       "id": 2,
@@ -611,5 +611,34 @@
       "price": 600
     }
   ],
-  "basket": []
+  "basket": [
+    {
+      "title": "Карбонара",
+      "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+      "description": "Домашнаяя пицца карбонара, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+      "price": 460,
+      "id": 1
+    },
+    {
+      "title": "Карбонара",
+      "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+      "description": "Домашнаяя пицца карбонара, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+      "price": 460,
+      "id": 2
+    },
+    {
+      "title": "Маргарита",
+      "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+      "description": "Пицца маргарита, сливочный соус, помидоры черри, трюфельное масло, черный перец, пармезан.350 г",
+      "price": 359,
+      "id": 3
+    },
+    {
+      "title": "Карбонара",
+      "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+      "description": "Домашнаяя пицца карбонара, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
+      "price": 460,
+      "id": 4
+    }
+  ]
 }
