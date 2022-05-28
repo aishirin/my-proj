@@ -59,8 +59,6 @@ function HomePage(){
                 price={product.price}
                 description={product.description}
                 product={product}
-                basket={basket}
-                setBasket={setBasket}
                 />
             ))}
             </div>

@@ -7,7 +7,6 @@ import { ReactComponent as Boy } from "./assets/boy.svg";
 import { ReactComponent as Logo } from "./assets/Group 329.svg";
 import pizza  from "./assets/pizza.png";
 import Footer from "./components/Footer/Footer";
-import BasketPage from "./components/Basket/Basket";
 import PizzaPage from './pages/PizzaPage/PizzaPage'
 import SaladPage from "./pages/SaladPage/SaladPage";
 import PastaPage from "./pages/PastaPage/PastaPage";
@@ -17,6 +16,8 @@ import DrinkPage from "./pages/DrinkPage.jsx/DrinkPade";
 import StockPage from "./pages/StockPage/StockPage"
 import ComboPage from "./pages/ComboPage/ComboPage"
 import ContactPage from "./pages/ContactPage/ContactPage";
+// import BasketPage from "./pages/BasketPage/BasketPage";
+import BasketPage from "./pages/BasketPage/BasketPage";
 export default function App() {
 
   return (
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/combo" element={<ComboPage />} />
           <Route path="/stocks" element={<StockPage />} />
           <Route path="/contacts" element={<ContactPage />} />
+          <Route path="/basket" element={<BasketPage />} />
         </Routes>
         <Footer />
       </div>

@@ -1,10 +1,16 @@
 import css from './basket.module.css'
-import Card from '../Card/Card';
-export default function Basket({basket}){
-    console.log(basket);
+
+export default function Basket({title, description, price, image,product,count}){
     return (
-        <div>
-            <h1 className={css.title}>{basket.title}</h1>
+        <div className={css.box}>
+            <img src={image} alt="image" className={css.image} />
+            <div>
+                <h3 className={css.title}>{title}</h3>
+                <p className={css.description}>{description}</p>
+            </div>
+            <p className={css.price}> {price} c</p>
+            <button className={css.btn} onClick={()=>console.log(product)}>X</button>
+            
         </div>
     )
 }

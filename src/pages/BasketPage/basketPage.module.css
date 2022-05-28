@@ -1,0 +1,8 @@
+.box{
+    display: grid;
+    row-gap: 20px;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
