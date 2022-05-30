@@ -1,11 +1,7 @@
-import { useState } from "react";
-import { useRef, useEffect } from "react";
 import Header from "./components/Header/Header";
 import { Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage/HomePage";
 import { ReactComponent as Boy } from "./assets/boy.svg";
-import { ReactComponent as Logo } from "./assets/Group 329.svg";
-import pizza  from "./assets/pizza.png";
 import Footer from "./components/Footer/Footer";
 import PizzaPage from './pages/PizzaPage/PizzaPage'
 import SaladPage from "./pages/SaladPage/SaladPage";
@@ -43,4 +39,4 @@ export default function App() {
       </div>
     </div>
   );
-}
+}                                                 

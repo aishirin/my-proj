@@ -1,12 +1,9 @@
-import clsx from 'clsx'
-import News from '../../components/News/News'
 import css from './salad.module.css';
 import Card from "../../components/Card/Card";
 import axios from 'axios';
 import { useEffect ,useState } from 'react';
 export default function SaladPage(){
-    const [salad , setSalad]=useState([]);
-    const [basket,setBasket]=useState([])
+    const [salad , setSalad]=useState([])
     const fetchSalad= async () => {
         const [resPizza]=await Promise.all([axios.get("http://localhost:3001/salad?_limit")])
         setSalad(resPizza.data)
@@ -24,8 +21,6 @@ export default function SaladPage(){
                 price={product.price}
                 description={product.description}
                 product={product}
-                basket={basket}
-                setBasket={setBasket}
                 />
             ))}
             </div>

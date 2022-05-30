@@ -6,7 +6,6 @@ import axios from 'axios';
 import { useEffect ,useState } from 'react';
 import Stocks from '../../components/Stocks/Stocks';
 function HomePage(){
-    const [basket,setBasket]=useState([])
     const [pizza , setPizza]=useState([]);
     const [news,setNews]=useState([]);
     const [pasta,setPasta]=useState([])
@@ -35,9 +34,7 @@ function HomePage(){
     
     // // empty dependency array means this effect will only run once (like componentDidMount in classes)
     // }, []);
-
-
-
+    
     return (
         <div>
             <h2>Новинки</h2>
@@ -70,9 +67,7 @@ function HomePage(){
                 image={product.image}
                 price={product.price}
                 description={product.description}
-                basket={basket}
                 product={product}
-                setBasket={setBasket}
                 />
             ))}
             </div>
@@ -84,9 +79,7 @@ function HomePage(){
                 image={product.image}
                 price={product.price}
                 description={product.description}
-                basket={basket}
                 product={product}
-                setBasket={setBasket}
                 />
             ))}
             </div>
@@ -94,7 +87,7 @@ function HomePage(){
             <div className={css.list}>
             {stocks.map((product)=>(
                 <Stocks key={product.id}
-                image={product.image}
+                image={product.image}   
                 />
             ))}
             </div>

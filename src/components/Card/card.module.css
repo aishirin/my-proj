@@ -1,6 +1,12 @@
+
+.mainCard{
+  position: relative;
+  padding-top: 50px;
+}
 .card {
   width: 250px;
   height: 410px;
+  
 }
 .image {
   width: 250px;
@@ -36,4 +42,9 @@
   border-radius: 8px;
   background-color: var(--color1);
   
+}
+.modal{
+  position: absolute;
+  right: 53px;
+  top: -10px;
 }

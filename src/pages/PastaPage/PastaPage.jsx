@@ -1,5 +1,3 @@
-import clsx from 'clsx'
-import News from '../../components/News/News'
 import css from './pastaPage.module.css';
 import Card from "../../components/Card/Card";
 import axios from 'axios';
@@ -13,7 +11,6 @@ export default function PastaPage(){
     useEffect(()=>{
         fetchPasta()
     },[])
-    
     return(<div>
         <h2 className={css.listTitle}>Пасты</h2>
             <div className={css.list}>

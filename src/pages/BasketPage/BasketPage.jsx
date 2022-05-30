@@ -5,6 +5,7 @@ import css from './basketPage.module.css'
 import Basket from '../../components/Basket/Basket'
 export default function BasketPage(){
     const [basket , setBasket]=useState([]);
+    console.log(basket);
     const fetchBasket= async () => {
         const [resBasket]=await Promise.all([axios.get("http://localhost:3001/basket")])
         setBasket(resBasket.data)
@@ -28,6 +29,8 @@ export default function BasketPage(){
                 description={product.description}
                 product={product}
                 count={product.count}
+                basket={basket}
+                setBasket={setBasket}
                 />
             ))}
             <h3>Общая сумма заказа: {total}</h3>

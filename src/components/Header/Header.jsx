@@ -3,7 +3,14 @@ import css from "./header.module.css";
 import { Link } from "react-router-dom";
 import logo from '../../assets/logo.svg'
 import { ReactComponent as Star } from "../../assets/star.svg";
+import axios from "axios";
+import { useState } from "react";
 function Header() {
+  const [count,setCount]=useState(0)
+    axios.get('http://localhost:3001/basket')
+    .then(function (response) {
+     setCount(response.data.length)
+    })
   return (
     <div className={css.header}>
       <div className={css.headerTop}>
@@ -33,7 +40,7 @@ function Header() {
             <Link className={css.item} to="/combo">Комбо</Link>
             <Link className={css.item} to="/contacts">Контакты</Link>
             <Link to="/category" className={clsx(css.item, css.account)}>Войти</Link>
-            <Link to="/basket"><button className={css.basket}>Корзина</button></Link>
+            <Link to="/basket"><button className={css.basket}>Корзина | {count} </button></Link>
       </div>
     </div>
   );
