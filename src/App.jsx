@@ -12,7 +12,6 @@ import DrinkPage from "./pages/DrinkPage.jsx/DrinkPade";
 import StockPage from "./pages/StockPage/StockPage"
 import ComboPage from "./pages/ComboPage/ComboPage"
 import ContactPage from "./pages/ContactPage/ContactPage";
-// import BasketPage from "./pages/BasketPage/BasketPage";
 import BasketPage from "./pages/BasketPage/BasketPage";
 export default function App() {
 
