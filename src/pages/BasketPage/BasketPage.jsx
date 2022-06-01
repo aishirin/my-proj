@@ -12,7 +12,7 @@ export default function BasketPage(){
         };
     useEffect(()=>{
         fetchBasket()
-    },[])
+    },[basket])
     let total=0
     for(let i=0;i<basket.length;i++){
         total+=basket[i].price

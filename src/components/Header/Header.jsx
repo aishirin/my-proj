@@ -4,12 +4,15 @@ import { Link } from "react-router-dom";
 import logo from '../../assets/logo.svg'
 import { ReactComponent as Star } from "../../assets/star.svg";
 import axios from "axios";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 function Header() {
   const [count,setCount]=useState(0)
-    axios.get('http://localhost:3001/basket')
+  console.log(count);
+    useEffect(()=>{
+      axios.get('http://localhost:3001/basket')
     .then(function (response) {
      setCount(response.data.length)
+    },[count])
     })
   return (
     <div className={css.header}>

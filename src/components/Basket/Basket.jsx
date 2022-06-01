@@ -1,18 +1,20 @@
 import css from './basket.module.css'
 import axios from 'axios'
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 // import { useState } from 'react';
 
-export default function Basket({title, description, price, image,product,basket,setBasket}){
+export default function Basket({title, description, price, image,product,basket,setBasket,count}){
     // const basket=axios.get('http://localhost:3001/basket')
     // .then(function (response) {
     //   console.log(response.data);
     // })
     // const [bask,setBask]=useState(basket)
     // console.log(bask);
+    // const [tempBasket,setTempBasket]=useState([])
     const del =()=>{axios.delete(`http://localhost:3001/basket/${product.id}`)
 .then(function (response) {
   console.log(response.data);
+    count ++
 })
     }
 
