@@ -1,4 +1,4 @@
-import Card from "../../components/Card/Card";
+import { Link } from "react-router-dom";
 import axios from "axios";
 import { useEffect,useState } from "react";
 import css from './basketPage.module.css'
@@ -29,11 +29,10 @@ export default function BasketPage(){
                 description={product.description}
                 product={product}
                 count={product.count}
-                basket={basket}
-                setBasket={setBasket}
                 />
             ))}
             <h3>Общая сумма заказа: {total}</h3>
+            <Link to="/register"><button className={css.basket}>Оформить заказ</button></Link>
         </div>
         </div>
     )

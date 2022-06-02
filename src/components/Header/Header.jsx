@@ -7,7 +7,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 function Header() {
   const [count,setCount]=useState(0)
-  console.log(count);
     useEffect(()=>{
       axios.get('http://localhost:3001/basket')
     .then(function (response) {
@@ -42,7 +41,7 @@ function Header() {
             <Link className={css.item} to="/stocks">Акции</Link>
             <Link className={css.item} to="/combo">Комбо</Link>
             <Link className={css.item} to="/contacts">Контакты</Link>
-            <Link to="/category" className={clsx(css.item, css.account)}>Войти</Link>
+            <Link to="/register" className={clsx(css.item, css.account)}>Войти</Link>
             <Link to="/basket"><button className={css.basket}>Корзина | {count} </button></Link>
       </div>
     </div>

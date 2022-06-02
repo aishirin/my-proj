@@ -13,6 +13,7 @@ import StockPage from "./pages/StockPage/StockPage"
 import ComboPage from "./pages/ComboPage/ComboPage"
 import ContactPage from "./pages/ContactPage/ContactPage";
 import BasketPage from "./pages/BasketPage/BasketPage";
+import RegisterPage from "./pages/Register/Register"
 export default function App() {
 
   return (
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/stocks" element={<StockPage />} />
           <Route path="/contacts" element={<ContactPage />} />
           <Route path="/basket" element={<BasketPage />} />
+          <Route path="/register" element={<RegisterPage />} />
         </Routes>
         <Footer />
       </div>

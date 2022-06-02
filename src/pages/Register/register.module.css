@@ -1,12 +1,12 @@
-.box{
-    display: grid;
-    row-gap: 20px;
-    justify-content: center;
+.listTitle{
+    font-style: normal;
+font-weight: 800;
+font-size: 32px;
+color: var(--color1);
+margin-top: 120px;
 }
-h2{
-    text-align: center;
-}
-.basket {
+.btn {
+    margin-top:20px ;
     width: 160px;
     height: 42px;
     border-radius: 8px;
