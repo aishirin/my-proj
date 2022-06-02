@@ -1,11 +1,10 @@
 import css from './basket.module.css'
 import axios from 'axios'
 
-export default function Basket({title, description, price, image,product,count}){
+export default function Basket({title, description, price, image,product}){
     const del =()=>{axios.delete(`http://localhost:3001/basket/${product.id}`)
 .then(function (response) {
   console.log(response.data);
-    count ++
 })
     }
 

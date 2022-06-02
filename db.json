@@ -611,14 +611,5 @@
       "price": 600
     }
   ],
-  "basket": [
-    {
-      "title": "Карбонара",
-      "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
-      "description": "Домашнаяя пицца карбонара, сливочный соус, креветки, трюфельное масло, черный перец, пармезан.350 г",
-      "price": 460,
-      "count": 1,
-      "id": 1
-    }
-  ]
+  "basket": []
 }
