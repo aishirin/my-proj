@@ -5,7 +5,6 @@ import css from './basketPage.module.css'
 import Basket from '../../components/Basket/Basket'
 export default function BasketPage(){
     const [basket , setBasket]=useState([]);
-    console.log(basket);
     const fetchBasket= async () => {
         const [resBasket]=await Promise.all([axios.get("http://localhost:3001/basket")])
         setBasket(resBasket.data)
