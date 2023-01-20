@@ -19,7 +19,6 @@ export default function Footer(){
                 <div><a>Бишкек Проспект</a>
                 <a>Жибек жолу 63/2</a></div>
             </div>
-            <p>YaBao Все праав защищены © 2021</p>
             </div>
             <div className={css.phoneInfo}>
                 <h6>Остались вопросы? А мы всегда на связи:</h6>
@@ -35,6 +34,7 @@ export default function Footer(){
                 <a className={css.tel} href="tel:84993918449">8 499 391-84-49</a>
                 <button className={css.telButton}>Заказать звонок</button>
             </div>
+            <p>YaBao Все праав защищены © 2021</p>
         </div>
     )
 }

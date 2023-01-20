@@ -72,3 +72,31 @@
   font-size: 16px;
   color: #231f20;
 }
+.burgerbtn{
+  display: none;
+}
+@media (max-width:1027px){
+  .burgerbtn{
+    display: block;
+  }
+  .headerTop{
+    grid-gap: 20px;
+  }
+  .textBlock{
+    display: none;
+  }
+  .tel{
+   grid-gap: 10px;
+  }
+  .tel button{
+    width: 100px;
+    height: 48px;
+  }
+  .tel a{
+    display: none;
+
+  }
+  .nav{
+    display: none;
+  }
+}

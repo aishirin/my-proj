@@ -14,6 +14,7 @@ import ComboPage from "./pages/ComboPage/ComboPage"
 import ContactPage from "./pages/ContactPage/ContactPage";
 import BasketPage from "./pages/BasketPage/BasketPage";
 import RegisterPage from "./pages/Register/Register"
+
 export default function App() {
 
   return (

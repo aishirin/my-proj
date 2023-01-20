@@ -2,17 +2,28 @@ import clsx from "clsx";
 import css from "./header.module.css";
 import { Link } from "react-router-dom";
 import logo from '../../assets/logo.svg'
+import burger from '../../assets/burger.svg'
 import { ReactComponent as Star } from "../../assets/star.svg";
 import axios from "axios";
 import { useEffect, useState } from "react";
 function Header() {
   const [count,setCount]=useState(0)
-    useEffect(()=>{
-      axios.get('http://localhost:3001/basket')
-    .then(function (response) {
-     setCount(response.data.length)
-    },[count])
-    })
+  const [basket,setBasket]=useState([])
+  const fetchBasket= async () => {
+    const [resBasket]=await Promise.all([axios.get("http://localhost:3001/basket")])
+    setBasket(resBasket.data)
+    setCount(basket.length)
+    };
+useEffect(()=>{
+    fetchBasket()
+},[basket])
+  
+    // useEffect(()=>{
+    //   axios.get('http://localhost:3001/basket')
+    // .then(function (response) {
+    //   setBasket(response.data)
+    // })
+    // },[])
   return (
     <div className={css.header}>
       <div className={css.headerTop}>
@@ -30,6 +41,7 @@ function Header() {
           <button>Заказать звонок</button>
           <a href="tel:84993918449">8 499 391-84-49</a>
         </div>
+        <button className={css.burgerbtn} ><img src={burger}></img></button>
       </div>
       <div className={css.nav}>
             <Link className={css.item} to="/pizza">Пицца</Link>

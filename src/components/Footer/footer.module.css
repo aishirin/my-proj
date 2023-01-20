@@ -71,3 +71,35 @@ span {
   width: 506px;
   height: 52px;
 }
+@media (max-width:769px){
+  .footer{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .telList{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+  }
+  .telList img{
+    width: 55px;
+    height: 30px;
+  }
+  .btn{
+    width: 205px;
+    height: 40px;
+  }
+  .tel {
+    display: none;
+  }
+  .telButton{
+    display: none;
+  }
+  .list{
+    display: none;
+  }
+  .headerList p{
+    padding-top: 0;
+
+  }
+}

@@ -38,4 +38,12 @@ a{
   position: absolute;
   right: -1px;
 }
-
+@media (max-width:768px){
+  .boy{
+    position: absolute;
+  width: 147px;
+  height: 124px;
+  top: 237px;
+  }
+  
+}
