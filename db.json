@@ -611,5 +611,14 @@
       "price": 600
     }
   ],
-  "basket": []
+  "basket": [
+    {
+      "title": "Маргарита",
+      "image": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png",
+      "description": "Пицца маргарита, сливочный соус, помидоры черри, трюфельное масло, черный перец, пармезан.350 г",
+      "price": 359,
+      "count": 1,
+      "id": 1
+    }
+  ]
 }

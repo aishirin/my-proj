@@ -71,14 +71,7 @@ function HomePage(){
                 />
             ))}
             </div>
-            {/* <h2 className={clsx(css.listTitle,css.stocks)}>Наши акции</h2>
-            <div className={css.list}>
-            {stocks.map((product)=>(
-                <Stocks key={product.id}
-                image={product.image}   
-                />
-            ))}
-            </div> */}
+            ~
         </div>
     )
 }
