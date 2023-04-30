@@ -53,6 +53,17 @@
   align-items: center;
   grid-gap: 10px;
 }
+.nav1{
+  display: none;
+}
+.nav2{
+  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 10px;
+  justify-content: end;
+}
 .item:hover{
     text-decoration: underline;
 }

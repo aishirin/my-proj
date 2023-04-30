@@ -9,15 +9,23 @@ import { useEffect, useState } from "react";
 function Header() {
   const [count,setCount]=useState(0)
   const [basket,setBasket]=useState([])
+  const [screen,setScreen]=useState(false)
+  const screenWidth = window.screen.width
+ 
   const fetchBasket= async () => {
     const [resBasket]=await Promise.all([axios.get("http://localhost:3001/basket")])
     setBasket(resBasket.data)
     setCount(basket.length)
     };
 useEffect(()=>{
+  if(screenWidth>768){
+    setScreen(true)
+  }else if(screenWidth>768){
+    setScreen(false)
+  }
     fetchBasket()
-},[basket])
-  
+},[basket,screen])
+  console.log(screen);
     // useEffect(()=>{
     //   axios.get('http://localhost:3001/basket')
     // .then(function (response) {
@@ -53,6 +61,19 @@ useEffect(()=>{
             <Link className={css.item} to="/stocks">Акции</Link>
             <Link className={css.item} to="/combo">Комбо</Link>
             <Link className={css.item} to="/contacts">Контакты</Link>
+            <Link to="/register" className={clsx(css.item, css.account)}>Войти</Link>
+            <Link to="/basket"><button className={css.basket}>Корзина | {count} </button></Link>
+      </div>
+      <div className={screen? css.nav1: css.nav2}>
+            <Link className={css.item1} to="/pizza">Пицца</Link>
+            <Link className={css.item1} to="/pasta">Паста</Link>
+            <Link className={css.item1} to="/soup">Супы</Link>
+            <Link className={css.item1} to="/salad">Салаты</Link>
+            <Link className={css.item1} to="/drink">Напитки</Link>
+            <Link className={css.item1} to="/dessert">Десерты</Link>
+            <Link className={css.item1} to="/stocks">Акции</Link>
+            <Link className={css.item1} to="/combo">Комбо</Link>
+            <Link className={css.item1} to="/contacts">Контакты</Link>
             <Link to="/register" className={clsx(css.item, css.account)}>Войти</Link>
             <Link to="/basket"><button className={css.basket}>Корзина | {count} </button></Link>
       </div>
